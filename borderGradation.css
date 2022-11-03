@@ -4,8 +4,8 @@
   padding: 30px;
 }
 .borderDiv {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border: 3px solid;
   border-radius: 50px;
   border-image: linear-gradient(
@@ -21,12 +21,10 @@
 }
 
 .borderDiv2 {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border: 3px solid transparent;
   border-radius: 50%;
-  padding: 5px;
-  /* padding이 border의 값이 된다. */
   background: linear-gradient(
       180deg,
       #0485ff -32.14%,
